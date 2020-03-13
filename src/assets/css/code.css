@@ -1,0 +1,25 @@
+/*codesSearched*/
+.container{
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+.card{
+  width: 100%;
+  background: rgba(255,255,255,0.5);
+  padding: 10px 0px 10px 40px;
+  margin: 6px 0;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.card-content{
+  color: #232323;
+  margin: 5px auto;
+
+}
+.card-content a{
+  text-decoration: none;
+}
+.card-content a:hover{
+  color: #3498db;
+}
