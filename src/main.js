@@ -3,20 +3,14 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import ElementUI from 'element-ui'
-import vueParticleLine from 'vue-particle-line'
-import 'vue-particle-line/dist/vue-particle-line.css'
-import Vuex from 'vuex'
-Vue.use(vueParticleLine)
-Vue.use(ElementUI)
-
+import 'element-ui/lib/theme-chalk/index.css';
+import ElementUI from 'element-ui';
 Vue.config.productionTip = false
-
+Vue.use(ElementUI);
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
   components: { App },
-  template: '<App/>',
-  render: h => h(App)
+  template: '<App/>'
 })

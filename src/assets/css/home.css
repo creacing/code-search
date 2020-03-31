@@ -1,0 +1,45 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.nav-input {
+  width: 400px;
+  margin-left: 80px;
+}
+.nav-header{
+  padding-left: 100px;
+}
+.nav-menu{
+  display: flex;
+}
+.nav-button{
+  margin-top: 3px;
+}
+
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+  width: 200px;
+  min-height: 400px;
+}
+/*.aside-top{*/
+/*  margin-top: 20px;*/
+/*  margin-left: -100px;*/
+/*}*/
+.body-main{
+  width: 80%;
+  margin: 0 auto;
+}
+.card-child{
+  float: left;
+}
+.introduction{
+  display: flex;
+  flex-direction: column;
+}
+.card-child span{
+  font-weight: 600;
+  font-size: 16px;
+}
+.body-title{
+  display: none;
+}

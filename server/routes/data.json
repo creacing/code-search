@@ -11,7 +11,7 @@
     "abstract": "给定 nums = [2, 7, 11, 15], target = 9，因为 nums[0] + nums[1] = 2 + 7 = 9，所以返回 [0, 1]",
     "link": "",
     "keywords": ["两数之和"],
-    "body": "var twoSum = function(nums, target) { \n for (var i = 0; i < nums.length; i++) {\n var dif = target - nums[i];\n // j = i + 1 的目的是减少重复计算和避免两个元素下标相同\n for (var j = i + 1; j < nums.length; j++) {\n if(nums[j] == dif)\n return [i,j];\n }\n }\n };"
+    "body": "var twoSum = function(nums, target) { \n  for (var i = 0; i < nums.length; i++) {\n       var dif = target - nums[i];\n       // j = i + 1 的目的是减少重复计算和避免两个元素下标相同\n        for (var j = i + 1; j < nums.length; j++) {\n           if(nums[j] == dif)\n                return [i,j];\n         }\n     }\n };"
   },
   {
     "id": "1000000002",

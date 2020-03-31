@@ -1,37 +1,23 @@
-# lucence-code-search
+# code_search
 
-> 基于lucence的代码搜索系统
+> 基于luncene的代码搜索系统
+#结构
 
-## Build Setup
+##前端vue+element
+##后端express
+##索引elasticsearch
 
-``` bash
+##环境
+###nodejs，elasticsearch，webpack
+
+## 运行
+``` 
 # install dependencies
 npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
+# express serve start at localhost:3000
+npm start
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
-基于lucence的代码搜索系统
-打包工具:webpack
-脚手架:vue-cil,express,ElementUI
-框架:vue
-前端编程语言:javaScript，html，css(scss)
-后端编程语言nodejs
